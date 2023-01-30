@@ -7,27 +7,33 @@ body {
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 @media only screen and (max-width: 768px) {
     body {
         text-align: center;
         font-size: x-large;
-        background-image: url("https://live.staticflickr.com/3099/2543340242_423f59896c_b.jpg");
+        background-image: url("https://images.unsplash.com/photo-1556174645-c49d9626b3bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80");
         background-size: cover;
         color: white;
         font-weight: bold;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        background-position: center;
         background-repeat: no-repeat;
-        height:70vh;
-       
+        background-position: center;
+        height: 100vh;
+    }
+    #message {
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    button {
+        text-align: center;
+        justify-items: center;
     }
 }
 
-
-
 h1 {
     color: darkgoldenrod;
-    margin-top: 25%;
+    margin-top: 17%;
 }
 
 #message {
@@ -50,7 +56,7 @@ button {
 
 .container {
     width: 100%;
-    height: 100%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
