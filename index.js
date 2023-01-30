@@ -31,7 +31,7 @@ function renderGame() {
         message = "You Won";
         blackjack = true;
         dollar += win;
-        money.innerHTML = "$" + dollar;
+        money.innerHTML = "Money: $" + dollar;
     } else {
         message = "You lose";
         alive = false;
