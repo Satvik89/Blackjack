@@ -35,7 +35,7 @@ function renderGame() {
     } else {
         message = "You lose";
         alive = false;
-        dollar=decrease_Money();
+        dollar = decrese_Money();
         money.innerHTML = "Money: $" + dollar;
     }
     document.getElementById("message").innerHTML = message;
@@ -57,6 +57,7 @@ function newCard() {
 function Random_No() {
     return Math.floor((Math.random() * 13) + 1);
 }
+
 function decrese_Money() {
     if (dollar === 0) {
         return 0;
