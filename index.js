@@ -12,7 +12,7 @@ function startGame() {
     card1 = Random_No();
     card2 = Random_No();
     cards = [card1, card2];
-    sum = card1 + card2;
+    sum = cards[0] + cards[1];
 
     renderGame();
 }
